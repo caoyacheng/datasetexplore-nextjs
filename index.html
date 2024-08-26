@@ -1,12 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--
-This is a JSON Dataset Explorer (Viewer and Editor) made by Concedo/LostRuins
-Please go to https://github.com/LostRuins/DatasetExplorer for updates
-This software is under the AGPL v3.0 License unless otherwise exempted. Please do not remove this line.
--Concedo
--->
-
 <head>
 <style>
 html {
@@ -93,6 +86,9 @@ img {
     user-select: none !important;
 }
 </style>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Concedo JSON Dataset Explorer</title>
 
 <script>
@@ -589,6 +585,10 @@ document.addEventListener("DOMContentLoaded", function () {
     <div id="toc" style="height:100%; overflow:auto; width:220px; padding:10px; border-right:1px solid #ccc;">没有数据项</div>
     <div id="contents" style="height:100%; overflow:auto; width:calc(100% - 220px); padding:10px;">无数据文件打开</div>
 </div>
+
+    <footer style="text-align: center; padding: 10px; background-color: #f0f0f0; position: fixed; bottom: 0; width: 100%;">
+        &copy; <script>document.write(new Date().getFullYear());</script> caoyacheng. All rights reserved.       
+    </footer>
 </body>
 
 </html>
